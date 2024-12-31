@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.31)
-project(dark C)
+project(cpl-2024-tzf-doc C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(dark main.c)
+add_subdirectory(0-intro)
